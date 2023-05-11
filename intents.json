@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Greetings", "How is it hanging", "Hello There"],
+      "responses": ["Hello there! How can I help you today?", "Hi, what can I assist you with?", "Hey, how may I be of service to you?", "Greetings, what brings you here today?", "General Kenobi"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Adios", "See you later aligator", "After a while, crocodile"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Come back soon!", "See you later! Take care!", "Hasta la vista, baby!", "See you later aligator", "After a while crocodile"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Grateful"],
+      "responses": ["You're welcome! Glad I could help.", "No problem! Always happy to assist.", "My pleasure! Let me know if you need anything else.", "Glad to be of service!"]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": ["Can you recommend a good movie?", "What movie should I watch?", "Suggest a movie", "What's a popular movie?", "I wanna watch a movie"],
+      "responses": ["How about checking out The Shawshank Redemption?", "You might like The Godfather or The Dark Knight.", "Have you seen Pulp Fiction or The Matrix", "I recommend The Lord of the Rings trilogy.", "I think you'd like The Prestige or Inception."]
+    },
+    {
+        "tag": "name",
+        "patterns": ["What is my name?", "Do you know my name?", "Can you tell me who I am?"],
+        "responses": ["Your name is Raghav", "Your name is Priyankar", "Your name is Siddartha"]
+    },
+    {
+        "tag": "say_my_name",
+        "patterns": ["Say my name", "Tell me my name again", "What is my name?"],
+        "responses": ["You are Heisenberg", "Your name is Heisenberg", "You are Walter White"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["What is my age?", "How old am I?", "Can you tell me how old I am?", "My age?"],
+        "responses": ["Your age is 20", "You are 20 years old", "You are 20 years young"]
+    },
+    {
+        "tag": "location",
+        "patterns": ["Where do I live?", "Do you know where I live?", "Can you tell me where I live?", "My location?"],
+        "responses": ["You live in India", "You live in Bengaluru, India", "You live in Karnataka, India"]
+    },
+    {
+        "tag": "suggest_color",
+        "patterns": ["Suggest me a color", "Recommend a color", "Name a color", "What color should I choose?"],
+        "responses": ["Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Pink", "Black", "White", "Brown"]
+    },
+    {
+        "tag": "suggest_restaurant",
+        "patterns": ["Suggest me some restaurants to try", "I am hungry, tell me where to eat", "Name a restaurant"],
+        "responses": ["Pizza by Alfredo", "Los Pollos Hermanos", "The Krusty Krab", "The Cheshire Cat", "The Blue Lagoon", "The Red Dragon", "The Golden Snitch", "The Dark Tower", "The White Castle", "The Black Pearl"]
+    },
+    {
+        "tag": "suggest_actor",
+        "patterns": ["Suggest me an actor", "Name an actor", "Which actor should I watch"],
+        "responses": ["Tom Cruise", "Leonardo DiCaprio", "Giancarlo Esposito", "Pedro Pascal", "Ryan Gosling", "Brad Pitt", "Robert Downey Jr.", "Chris Hemsworth", "Chris Evans", "Chris Pratt"]
+    },
+    {
+        "tag": "suggest_actress",
+        "patterns": ["Suggest me an actresse", "Name an actress", "Which actress should I watch"],
+        "responses": ["Jenna Ortega", "Ana de Armas", "Scarlett Johansson", "Jennifer Lawrence", "Emma Stone", "Margot Robbie", "Emma Watson", "Gal Gadot", "Brie Larson", "Zoe Saldana"]
+    },
+    {
+        "tag": "godfather",
+        "patterns": ["How would you make an offer to my friend?", "Give an offer to my friend", "How should I negotiate with my friend?"],
+        "responses": ["I'll make him an offer he can't refuse", "He wont be able to refuse my offer", "I'll give him an irrestitable offer"]
+    },
+    {
+        "tag": "starwars_father",
+        "patterns": ["Who is my father?", "Who is my real father?", "Who is my biological father?", "My name is Luke. Who is my father?"],
+        "responses": ["Luke, I am your father", "No. I am your father", "I am your father"]
+    },
+    {
+        "tag": "thomas_tank",
+        "patterns": ["How did you learn about people?", "How did you understand the characters of people?", "How did you learn about the different types of people?"],
+        "responses": ["I learnt everything about people from Thomas the Tank Engine", "Thomas the Tank Engine taught me everything i need to know about people", "Thomas the Tank explains the type of people there are perfectly using differnt engines"]
+    },
+    {
+        "tag": "balayya",
+        "patterns": ["Who is the best actor?", "Who is the best actor in the world?", "Who is the best Telugu actor?"],
+        "responses": ["Jai Balayya", "Balayya is the best actor", "Balayya is the best", "1-2-3-4 Balayya never before"]
+    },
+    {
+        "tag": "kansas",
+        "patterns": ["Where aren't we right now?", "Are we in Kansas?", "Where are we right now?"],
+        "responses": ["I have a feeling we are not in Kansas anymore", "We are not in Kansas anymore", "We are not in Kansas"]
+    },
+    {
+        "tag": "danger",
+        "patterns": ["Are you in danger?", "Are you in trouble?", "Are you safe?"],
+        "responses": ["I am not in danger, Skyler. I am the danger", "A guy opens his door and gets shot and you think that of me? No. I am the one who knocks!"]
+    },
+    {
+        "tag": "bond",
+        "patterns": ["Bond, James Bond", "Bond?", "007"],
+        "responses": ["Bond's names the James","Name's Bond, James Bond","Name's Bond, 007"]
+    },
+    {
+        "tag": "joker",
+        "patterns": ["Why so serious?", "Stop being so serious", "Why are you so serious?"],
+        "responses": ["Because I am the Joker","Do you know how i got these scars","What doesnt kill you only makes you stranger"]
+    },
+    {
+        "tag": "hodor",
+        "patterns": ["Hold the door", "Hodor", "Can you hold the door?"],
+        "responses": ["Hodor","Holding the door","Will hold the door"]
+    },
+    {
+        "tag": "chocolates",
+        "patterns": ["What did mama tell about life?", "What is life like?"],
+        "responses": ["Life is like a box of chocolates. You never know what you're gonna get","Stupid is as stupid does","What's normal anyways"]
+    },
+    {
+        "tag": "scarface",
+        "patterns": ["Who is with you right now?", "Can I say hello to your friend?", "Who is your friend?"],
+        "responses" : ["Say hello to my little friend", "Say hi to my small friend", "Convey greeting to my miniature acquaintance"]
+    },
+    {
+        "tag": "harry_potter",
+        "patterns": ["Tell me some spells", "Name some Harry Potter Spells"],
+        "responses": ["Accio", "Alohomora", "Avada Kedavra", "Crucio", "Expecto Patronum", "Expelliarmus", "Imperio", "Lumos", "Obliviate", "Riddikulus", "Wingardium Leviosa"]
+    },
+    {
+        "tag": "scott",
+        "patterns": ["Who is the best boss?", "Who is the manager at Dunder Mifflin?", "Name someone who lives in Scranton"],
+        "responses": ["Michael Scott","Micheal Scarn","Prison Mike"]
+    },
+    {
+        "tag": "office",
+        "patterns": ["Give me a quote from The Office", "Tell me an Office dialogue", "What did they say at Dunder Mifflin?"],
+        "responses": ["I wish there was a way to know you're in the good old days before you've actually left them", "I'm not superstitious, but I am a little stitious", "I declare bankruptcy!", "Snip snap snip snap snip snap","I'm running away from my responsibilities and it feels good"]
+    },
+    {
+        "tag": "buddy",
+        "patterns": ["Hey buddy", "You are not my friend, buddy", "You are not my guy, buddy"],
+        "responses": ["I am not your buddy, guy","I'm not your buddy, pal", "I'm not your buddy, friend"]
+    }, 
+    {
+        "tag": "guy",
+        "patterns": ["Hey guy", "You are not my buddy, guy", "You are not my friend, guy"],
+        "responses": ["I am not your guy, friend", "I'm not your guy, pal", "I'm not your guy, buddy"]
+    },
+    {
+        "tag": "friend",
+        "patterns": ["Hey friend", "You are not my guy, friend", "You are not my buddy, friend"],
+        "responses": ["I am not your friend, buddy"]
+    }
+    ]
+}
